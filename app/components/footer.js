@@ -39,7 +39,7 @@ export default function Footer() {
                     <div className="col-span-3">
                         <div className="mt-4 xls:mt-2 xms:mt-2 xs:mt-2 text-white">
                             <div>
-                                <h2 className="text-[35px] text-gray-600">Let's keep in touch!</h2>
+                                <h2 className="text-[35px] text-gray-600">Lets keep in touch!</h2>
 
                             </div>
                             <div className="text-sm text-gray-600 mb-2">

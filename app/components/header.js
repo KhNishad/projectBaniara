@@ -1,8 +1,8 @@
 import React from 'react'
-
 export default function Header() {
     return (
         <div>
+          
             <div class="2xl:container 2xl:mx-auto">
                 <div class="bg-white rounded shadow-lg py-5 px-7">
                     <nav class="flex justify-between">
