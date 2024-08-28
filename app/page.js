@@ -58,10 +58,10 @@ export default async function Home(params) {
             <h2 className="text-[25px] font-semibold">Institues</h2>
           </div>
           <div className="flex items-center justify-evenly flex-wrap mt-5">
-            <InstitueCard name={'Baniara High School'} />
-            <InstitueCard name={'Baniara Mosque'} />
-            <InstitueCard2 name={'Baniara Primary School'} />
-            <InstitueCard2 name={'Baniara Madrasa'} />
+            <InstitueCard name={'Baniara High School'} image={'/hightSchool.jpg'} />
+            <InstitueCard name={'Baniara Mosque'}  image={'/mosque3.jpg'} />
+            <InstitueCard2 name={'Baniara Primary School'}  image={'/primarySchool.jpg'} />
+            <InstitueCard2 name={'Baniara Madrasa'}  image={'/madrasa.jpg'} />
           </div>
 
         </div>

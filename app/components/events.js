@@ -14,7 +14,7 @@ const Events = () => {
 
     let contents = [
         {
-            image: `/tree-736885_640.jpg`,
+            image: `/mosque3.jpg`,
             name: 'image',
             content: 'Annual Sports Day.'
         },
@@ -24,12 +24,12 @@ const Events = () => {
             content: 'Cultural Program.'
         },
         {
-            image: `/tree-736885_640.jpg`,
+            image:`/mosque3.jpg`,
             name: 'image',
             content: 'Educational Events'
         },
         {
-            image: `/banner-1050629_640.webp`,
+            image: `/hightSchool.jpg`,
             name: 'image',
             content: 'Annual Sports Day.'
         },
@@ -39,14 +39,14 @@ const Events = () => {
             content: 'Annual Sports Day.'
         },
         {
-            image: `/tree-736885_640.jpg`,
+            image:`/mosque3.jpg`,
             name: 'image',
             content: 'Educational Events'
         },
         {
-            image: `/banner-1050629_640.webp`,
+            image: `/primarySchool.jpg`,
             name: 'image',
-            content: 'Annual Sports Day.'
+            content: 'Primary School'
         }
     ]
 
@@ -63,22 +63,7 @@ const Events = () => {
             >
                 {contents?.map((item, index) => (
                     <SwiperSlide key={index} className="flex items-center justify-center">
-                        {/* <div className="flex flex-col items-center max-w-[250px]"> 
-                            <div>
-                                <Image
-                                    width={200}
-                                    height={600}
-                                    src={item?.image}
-                                    className="w-[250px] h-[250px] rounded-md object-cover"
-                                    alt={`slider-image`}
-                                />
-                            </div>
-                            <div className="mt-2">
-                                <p className="text-[12px] text-center">{item?.content}</p> 
-                            </div>
-                        </div> */}
-
-
+                       
                         <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mr-5 max-w-[300px]">
                             <Image
                                 width={500}

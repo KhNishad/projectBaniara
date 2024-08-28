@@ -1,8 +1,10 @@
-import React from 'react'
+'use client'
+import React from 'react';
+import NewsTicker from './newsTicker';
 export default function Header() {
     return (
         <div>
-          
+            <NewsTicker/>
             <div class="2xl:container 2xl:mx-auto">
                 <div class="bg-white rounded shadow-lg py-5 px-7">
                     <nav class="flex justify-between">

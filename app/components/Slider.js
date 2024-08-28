@@ -14,11 +14,15 @@ const Slider = () => {
 
   let contents = [
     {
-      image :`/360_F_514951224_2dxMLbIw5qNRdPGD003chpbVcxWtcp7K.jpg`,
+      image :`/hightSchool.jpg`,
       name : 'image'
     },
     {
-      image :`/banner-1050629_640.webp`,
+      image :`/PrimarySchool.jpg`,
+      name : 'image'
+    },
+    {
+      image :`/mosque3.jpg`,
       name : 'image'
     }
   ]

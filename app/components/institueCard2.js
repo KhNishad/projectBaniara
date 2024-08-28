@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-export default function InstitueCard2({name}) {
+export default function InstitueCard2({name,image}) {
   return (
     <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div className="md:flex">
@@ -15,7 +15,7 @@ export default function InstitueCard2({name}) {
           </div> */}
         </div>
         <div className="md:flex-shrink-0">
-          <Image width={200} height={200} className="h-48 w-full  md:w-48" src="/tree-736885_640.jpg" alt="Image"/>
+          <Image width={200} height={200} className="h-48 w-full  md:w-48" src={image} alt="Image"/>
         </div>
       </div>
     </div>

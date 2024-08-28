@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from "next/image";
 
-export default function InstitueCard({name}) {
+export default function InstitueCard({name,image}) {
   return (
     <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-5">
       <div className="md:flex">
         <div className="md:flex-shrink-0">
-          <Image width={200} height={200} className="h-48 w-full  md:w-48" src="/tree-736885_640.jpg" alt="Image"/>
+          <Image width={200} height={200} className="h-48 w-full  md:w-48" src={image} alt="Image"/>
         </div>
         <div className="p-8">
           <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold cursor-pointer">{name}</div>
