@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-// import { imageBasePath } from "@/config";
+import {isMobile} from 'react-device-detect';
 
 
 const SportsGallary = () => {
@@ -68,7 +68,7 @@ const SportsGallary = () => {
     return (
         <div className="mt-5">
             <Swiper
-                slidesPerView={4}
+                slidesPerView={isMobile?2:4}
                 autoplay={{
                     delay: 2500,
                     // disableOnInteraction: false,
@@ -77,14 +77,14 @@ const SportsGallary = () => {
                 className="flex items-center justify-center"
             >
                 {contents?.map((item, index) => (
-                    <SwiperSlide key={index} className="flex items-center justify-center">
+                    <SwiperSlide key={index} className="flex items-center justify-center mr-[5px]">
                         <div className="flex flex-col items-center max-w-[250px]">
                             <div>
                                 <Image
                                     width={200}
                                     height={600}
                                     src={item?.image}
-                                    className="w-[250px] h-[250px] rounded-md object-cover"
+                                    className="w-[250px] h-[250px] rounded-md object-cover "
                                     alt={`slider-image`}
                                 />
                             </div>

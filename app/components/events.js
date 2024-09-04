@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-// import { imageBasePath } from "@/config";
+import {isMobile} from 'react-device-detect';
 
 
 const Events = () => {
@@ -49,7 +49,7 @@ const Events = () => {
     return (
         <div className="mt-10">
             <Swiper
-                slidesPerView={4}
+                slidesPerView={isMobile?1:4}
                 autoplay={{
                     delay: 2500,
                     // disableOnInteraction: false,

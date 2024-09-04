@@ -93,7 +93,7 @@ export default function Footer() {
 
                         </div>
                     </div>
-                    <div className="col-span-2"></div>
+                    {/* <div className="col-span-2"></div>
                     <div className="col-span-1">
                         <p className="text-secondary font-semibold">About Us</p>
 
@@ -135,7 +135,7 @@ export default function Footer() {
                             </li>
 
                         </ul>
-                    </div>
+                    </div> */}
 
                 </div>
 
