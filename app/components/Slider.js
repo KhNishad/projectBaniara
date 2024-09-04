@@ -14,7 +14,7 @@ const Slider = () => {
 
   let contents = [
     {
-      image :`/hightSchool.jpg`,
+      image :`/BANIARA high school.png`,
       name : 'image'
     },
     {
@@ -22,9 +22,10 @@ const Slider = () => {
       name : 'image'
     },
     {
-      image :`/mosque3.jpg`,
+      image :`/BANIARa_mos.png`,
       name : 'image'
-    }
+    },
+   
   ]
 
   return (
@@ -43,14 +44,14 @@ const Slider = () => {
             <SwiperSlide key={index}>
               <div>
                 <Image
-                  width={200}
+                  width={1800}
                   height={600}
                   src={item?.image}
-                  className="w-full h-[600px] object-cover"
+                  className="w-full h-[500px] object-center"
                   alt={`slider-image`}
-                  // priority={true}
-                  // quality={100}
-                  // unoptimized={true}
+                  priority={true}
+                  quality={100}
+                  unoptimized={true}
                  
                 />
               </div>

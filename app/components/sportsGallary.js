@@ -14,40 +14,55 @@ const SportsGallary = () => {
 
     let contents = [
         {
-            image: `/tree-736885_640.jpg`,
+            image: `/PrimarySchool.jpg`,
             name: 'image',
-            content: 'Annual Sports Day.'
+            content: 'Primary School.'
         },
         {
-            image: `/banner-1050629_640.webp`,
+            image: `/hightSchool.jpg`,
             name: 'image',
-            content: 'Cultural Program.'
+            content: 'High School'
         },
         {
-            image: `/tree-736885_640.jpg`,
+            image: `/argentian.jpeg`,
             name: 'image',
-            content: 'Educational SportsGallary'
+            content: 'Football'
         },
         {
-            image: `/banner-1050629_640.webp`,
+            image: `/volly.jpeg`,
             name: 'image',
-            content: 'Annual Sports Day.'
+            content: 'Volley Ball .'
         },
         {
-            image: `/banner-1050629_640.webp`,
+            image: `/footballMatch1.jpg`,
             name: 'image',
-            content: 'Annual Sports Day.'
+            content: 'Sports Day'
         },
         {
-            image: `/tree-736885_640.jpg`,
+            image: `/ifterAtmos.jpg`,
             name: 'image',
-            content: 'Educational Events'
+            content: 'Ifter At Mosque'
         },
         {
-            image: `/banner-1050629_640.webp`,
+            image: `/eidNamaz.jpg`,
             name: 'image',
-            content: 'Annual Sports Day.'
-        }
+            content: 'Eid Jamat'
+        },
+        {
+            image: `/kunora.jpg`,
+            name: 'image',
+            content: 'Football Match'
+        },
+        {
+            image: `/jersey.jpg`,
+            name: 'image',
+            content: 'New Jersey'
+        },
+        {
+            image: `/league.jpg`,
+            name: 'image',
+            content: 'League Final'
+        },
     ]
 
     return (

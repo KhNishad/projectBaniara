@@ -19,7 +19,7 @@ const Events = () => {
             content: 'Annual Sports Day.'
         },
         {
-            image: `/banner-1050629_640.webp`,
+            image: `/PrimarySchool.jpg`,
             name: 'image',
             content: 'Cultural Program.'
         },
@@ -33,11 +33,7 @@ const Events = () => {
             name: 'image',
             content: 'Annual Sports Day.'
         },
-        {
-            image: `/banner-1050629_640.webp`,
-            name: 'image',
-            content: 'Annual Sports Day.'
-        },
+       
         {
             image:`/mosque3.jpg`,
             name: 'image',
